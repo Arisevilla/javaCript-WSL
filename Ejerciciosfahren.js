@@ -1,6 +1,6 @@
 function celAfaren(celsius){
-    if (celsius !== Number){
-        console.log("Error, ingrese un número: ")
+    if (isNaN(celsius)){
+        console.log("Error, vuelvalo a intentar escribiendo un numero ")
     } else {
         var fahrenheit = (celsius*9/5) + 32;
         return fahrenheit;
